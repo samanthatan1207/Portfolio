@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400..900&display=swap');
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {}
+
+.me {
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    border: 3px solid #fff;
+}
+
+.me img {
+    width: 100%;
+}
+
+#top {
+    background-color: #EDEBE9;
+    padding: 30px;
+    display: flow-root;
+    box-shadow: 5px 10px 10px 1px rgb(81 81 81 / 20%);
+}
+
+.Title {
+    font-size: 25px;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 2px;
+    float: left;
+    line-height: 50px;
+}
+
+.menu {
+    float: right;
+    font-size: 16px;
+    width: 50%;
+}
+
+.btn {
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #000;
+    line-height: 50px;
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+button:last-child {
+    border-right: none;
+}
+
+.Tag {
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+
+.Tag p {
+    text-align: center;
+    font-size: 170px;
+    padding: 30px;
+    font-family: "Libre Baskerville", serif;
+    color: #f5f5f5;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.btn.active {
+    font-size: 18px;
+    font-style: italic;
+    color: #bf5353;
+}
+
+.Tag.show {
+    display: block;
+
+}
+
+.content {
+    column-count: 5;
+    /*欄數*/
+    column-gap: 10px;
+    /*每欄間隔*/
+}
+
+.POP {
+    column-count: 2;
+    /*欄數*/
+    column-gap: 10px;
+    /*每欄間隔*/
+}
+
+.WEB {
+    column-count: 3;
+    /*欄數*/
+    column-gap: 10px;
+    /*每欄間隔*/
+}
+
+ul.content li {
+    box-sizing: border-box;
+    break-inside: avoid;
+    /*定義頁面、列或是區域發生中斷時的元素表現方式。 auto->元素中斷、acoid->元素不中斷*/
+    border-radius: 20px;
+    overflow: hidden;
+    border: 10px solid #fff;
+    box-shadow: 5px 10px 10px 1px rgb(81 81 81 / 20%);
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+}
+
+ul.content li img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1475px) {
+    .btn {
+        font-size: 14px;
+    }
+
+    .btn.active {
+        font-size: 16px;
+    }
+
+    .Tag p {
+        font-size: 100px;
+    }
+
+    .content {
+        column-count: 3;
+        /*欄數*/
+    }
+
+    .WEB,
+    .POP {
+        column-count: 2;
+        /*欄數*/
+    }
+}
+
+@media screen and (max-width: 1111px) {
+    #top {
+        text-align: center !important;
+    }
+
+    .menu {
+        float: none;
+        font-size: 16px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .Name {
+        display: inline-block;
+        width: max-content;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 641px) {
+
+    .btn {
+        height: 40px;
+        line-height: 20px;
+    }
+
+    .menu {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #Top {
+        padding: 20px;
+    }
+
+    .Tag p {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .content {
+        column-count: 2;
+        /*欄數*/
+    }
+
+    .WEB,
+    .POP {
+        column-count: 1;
+        /*欄數*/
+    }
+
+    .Tag {
+        width: 96%;
+        margin: 0 auto;
+        display: none;
+    }
+
+    ul.content li {
+        border: 5px solid #fff;
+    }
+
+    .btn.active {
+        font-size: 14px;
+    }
+
+    .Title {
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+
+    .me {
+        margin-right: 10px;
+    }
+}

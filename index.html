@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Samantha's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="top">
+        <div class="Name">
+            <div class="me"><img src="images/58583750_10214138333756278_4468355452157034496_n.jpg"></div>
+            <div class="Title">Samantha's Portfolio</div>
+        </div>
+        <div class="menu">
+            <button type="button" class="btn active">Landing Page</button>
+            <button type="button" class="btn">Banner</button>
+            <button type="button" class="btn">POP</button>
+            <button type="button" class="btn">Web</button>
+        </div>
+    </div>
+
+    <!-- LP -->
+    <div class="Tag show">
+        <p>Landing Page</p>
+        <ul class="content">
+            <li><img src="images/LandingPage/保健食品/LP (4).jpg"></li>
+            <li><img src="images/LandingPage/保健食品/LP (5).jpg"></li>
+            <li><img src="images/LandingPage/保健食品/LP (2).jpg"></li>
+            <li><img src="images/LandingPage/保健食品/LP (1).jpg"></li>
+            <li><img src="images/LandingPage/保險業/IHAB.jpg"></li>
+            <li><img src="images/LandingPage/保險業/LP.jpg"></li>
+            <li><img src="images/LandingPage/保險業/LP1.jpg"></li>
+            <li><img src="images/LandingPage/保險業/LP2 (1).jpg"></li>
+        </ul>
+    </div>
+
+    <!-- BN -->
+
+    <div class="Tag">
+        <p>Banner</p>
+        <ul class="content">
+            <li><img src="images/BN/醫美/BN_線雕1080x1080 _1.jpg"></li>
+            <li><img src="images/BN/醫美/BN_線雕1080X1080_2.jpg"></li>
+            <li><img src="images/BN/保健食品/BN1.jpg"></li>
+            <li><img src="images/BN/保健食品/BN2.jpg"></li>
+            <li><img src="images/BN/保健食品/雞精錠1080X1080_4.png"></li>
+            <li><img src="images/BN/保健食品/雞精錠1080X1080_3.png"></li>
+            <li><img src="images/BN/保健食品/BN11-1080x1080.jpg"></li>
+            <li><img src="images/BN/保健食品/BN6-1080X1080.png"></li>
+            <li><img src="images/BN/保健食品/BN1-1080X1080 (1).jpg"></li>
+            <li><img src="images/BN/保健食品/BN4-1080X1080.jpg"></li>
+            <li><img src="images/BN/保健食品/BN1-1080X1080 (1).jpg"></li>
+            <li><img src="images/BN/保健食品/BN3_1080X1080.jpg"></li>
+            <li><img src="images/BN/保健食品/BN3_1080X1080 (1).jpg"></li>
+            <li><img src="images/BN/保健食品/BN1-1080_1080.png"></li>
+            <li><img src="images/BN/保健食品/BN2-1080X1080 (2).jpg"></li>
+            <li><img src="images/BN/保健食品/BN4-1080X1080 (1).jpg"></li>
+            <li><img src="images/BN/股票投資/BN1 (1).jpg"></li>
+            <li><img src="images/BN/股票投資/BN2.png"></li>
+            <li><img src="images/BN/股票投資/選擇權BN1.jpg"></li>
+            <li><img src="images/BN/保健食品/芝麻錠BN2_1080X1080.jpg"></li>
+            <li><img src="images/BN/借貸/BN2_1080X1080.jpg"></li>
+            <li><img src="images/BN/補教業/1200X1200 (2).jpg"></li>
+            <li><img src="images/BN/補教業/1200X1200 (1).jpg"></li>
+            <li><img src="images/BN/補教業/BN1.jpg"></li>
+            <li><img src="images/BN/補教業/BN6.jpg"></li>
+        </ul>
+    </div>
+
+    <!-- POP -->
+    <div class="Tag">
+        <p>POP</p>
+        <ul class="content POP">
+            <li><img src="images/POP/2022母親節廣告頁範例-下方字要自行調整-(1).jpg"></li>
+            <li><img src="images/POP/2024聖誕週年慶家電-紳鑫OL (1).jpg"></li>
+        </ul>
+    </div>
+
+    <!-- Web -->
+    <div class="Tag">
+        <p>Web</p>
+        <ul class="content WEB">
+            <li><img src="images/WEB/01首頁.png"></li>
+            <li><img src="images/WEB/首頁.jpg"></li>
+            <li><img src="images/WEB/02FAQ.jpg"></li>
+            <li><img src="images/WEB/03聯絡我們.jpg"></li>
+            <li><img src="images/WEB/06開發新客源.jpg"></li>
+            <li><img src="images/WEB/07開發新客源-Net Work 數位聯播網.jpg"></li>
+            <li><img src="images/WEB/08開發新客源-簡訊行銷.jpg"></li>
+        </ul>
+    </div>
+</body>
+
+
+<script>
+    //获取页面的每个按钮
+    var btns = document.getElementsByClassName("btn")
+    //获取内容盒子
+    var contents = document.getElementsByClassName("Tag")
+
+    //遍历每个按钮为其添加点击事件
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].index = i;
+        btns[i].onclick = function () {
+            //对当前点击的按钮赋予active类名及显示当前按钮对应的内容
+            for (var j = 0; j < btns.length; j++) {
+                btns[j].className = btns[j].className.replace(' active', '').trim();
+                contents[j].className = contents[j].className.replace(' show', '').trim();
+            }
+            this.className = this.className + ' active';
+            contents[this.index].className = contents[this.index].className + ' show';
+        };
+
+    }
+</script>
+
+</html>
