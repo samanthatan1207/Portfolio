@@ -1,0 +1,607 @@
+
+::-webkit-input-placeholder { 
+	font-family:Century Gothic, "微軟正黑體";
+	color:#5c5c5c;
+}
+::-moz-placeholder { 
+	color:#5c5c5c;
+	font-family:Century Gothic, "微軟正黑體";
+
+} /* firefox 19+ */
+:-ms-input-placeholder {
+	color:#5c5c5c;
+	font-family:Century Gothic, "微軟正黑體";
+
+} /* ie */
+input:-moz-placeholder { 
+	color:#5c5c5c;
+	font-family:Century Gothic, "微軟正黑體";
+
+}
+
+body{
+	width: 640px;
+	margin: 0 auto;
+}
+
+.KV{
+
+}
+.Product{
+	margin-top: -3px;
+}
+.FormTitle{
+	background-image: url("../images/FormTitle.png");
+	width: 358px;
+	height:29px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.form{
+	width: 535px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form ul{
+	margin-top: 10px;
+    display: block;
+	clear: both;
+}
+.form ul li{
+	margin-bottom:15px;
+    display: inline-block;
+}
+.ProductName{
+	float: left;
+    font-size: 30px;
+    width: 480px;
+    line-height: 40px;
+    font-family: Century Gothic, "微軟正黑體";
+    padding-left: 20px;
+    font-weight: bolder;
+}
+
+.form .formoption{
+	float: left;
+	width: 140px;
+	color: #000000;
+	font-size: 26px;
+	font-family:Century Gothic, "微軟正黑體";
+	font-weight:bolder;
+	height: 70px;
+    line-height: 70px;
+}
+.form .formoption2{
+	float: left;
+	color: #000000;
+	font-size: 26px;
+	font-family:Century Gothic, "微軟正黑體";
+	font-weight:bolder;
+	height: 70px;
+    line-height: 70px;
+}
+.form .buyer{
+	float: left;
+	width: 182px;
+	color: #000000;
+	font-size: 28px;
+	line-height: 37px;
+	height: 37px;
+	font-family:Century Gothic, "微軟正黑體";
+}
+.form .formcontent{
+	float: left;
+	width: 375px;
+	color: #000000;
+	font-size: 28px;
+	font-family:Century Gothic, "微軟正黑體";
+	line-height: 38px;
+	text-align: justify;
+}
+.LastName{
+	float: left;
+	margin-right: 19px;
+	width: 300px;
+}
+.FirstName{
+	float:left; 
+}
+/**/
+select{
+	appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url("../images/select.png") no-repeat scroll right center ;
+	/*color:rgba(0,0,0,0.70);*/
+	color: #000;
+	padding-left:20px;
+}
+select::-ms-expand { display: none; }
+select{
+   background-color: #f8f8f8;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: Century Gothic, "微軟正黑體";
+    /* color: #000000; */
+    padding-left: 20px;
+    width: 164px;
+    height: 70px;
+    /* margin-left: 10px; */
+    font-size: 26px;
+    margin-right: 10px;
+	margin-top: 20px;
+}
+input{
+	width: 179px;
+	height: 70px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-size: 26PX;
+	text-indent: 20px;
+	padding-top: 18px!important;
+    padding-bottom: 18px!important;
+	background-color: #f8f8f8;
+	font-family:Century Gothic, "微軟正黑體";
+}
+
+.mobiPhone,.mobiname{
+	width: 395px;
+	/*height: 70px;*/
+	line-height: 38px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-size: 26PX;
+	text-indent: 20px;
+	padding-top: 18px!important;
+    padding-bottom: 18px!important;
+	background-color: #f8f8f8;
+	font-family:Century Gothic, "微軟正黑體";
+}
+.inputbox{
+	line-height: 70px;
+	height: 70px;
+}
+.inputAdd{
+	width:500px!important;
+	line-height: 45px !important;
+	height: 45px !important;
+}
+.inputcontent{
+	width: 536px;
+	height: 140px;
+	line-height: 38px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	font-size: 26PX;
+	padding: 20px;
+	padding-top: 18px!important;
+    padding-bottom: 18px!important;
+	background-color: #f8f8f8;
+	font-family:Century Gothic, "微軟正黑體";
+	margin-top: 13px;
+	box-shadow:0;
+}
+
+.IMG{
+	margin-top: -5px;
+}
+.Precautions1{
+	width:535px;
+	margin: 0 auto;
+	color: #000;
+	font-size: 25px;
+	line-height: 35px;
+	font-family:Century Gothic, "微軟正黑體";
+}
+
+.Precautions1 ul{
+	padding-left: 30px;
+    margin-top: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.Precautions1 ul li{
+	margin-bottom: 5px;
+	list-style: disc;
+	text-align: justify;
+	display: list-item;
+}
+.Precautions2{
+	width:535px;
+	margin: 0 auto;
+	color: #444444;
+	font-size: 25px;
+	line-height: 35px;
+	font-family:Century Gothic, "微軟正黑體";
+	padding-bottom: 30px;
+}
+.Precautions2 p{
+	font-weight: bold;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.Precautions2 ul{
+	padding-left: 30px;
+}
+.Precautions2 ul li{
+	margin-bottom: 10px;
+	list-style: decimal;
+	text-align: justify;
+}
+.Remark{
+	width: 535px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 28px;
+	color: #444444;
+}
+.footer{
+	padding: 30px;
+	width: 640px;
+	color: #444444;
+	text-align: center;
+	font-size: 26px;
+	line-height: 36px;
+	font-family:Century Gothic, "微軟正黑體";
+	background-color: #f6f6f6;
+	font-weight: bold;
+   /* margin-bottom: 136px;*/
+   padding-bottom: 200px;
+	
+}
+/*勾選框*/
+.choice{
+	width: 250px;
+    height: 39px;
+    margin: 0 auto;
+    font-size: 26px;
+    line-height: 32px;
+    position: relative;
+    text-align: justify;
+    /* margin-top: 10px; */
+    margin-bottom: 23px;
+    color: #000;
+    font-weight: bold;
+    font-family: Century Gothic, "微軟正黑體";
+    padding-left: 50px;
+}
+.choice input {
+    width: 26px;
+    height: 26px;
+	border: 5px solid #0000FF;
+	background-color: #F0F1F5;
+	border-radius: 5px;
+}
+.boxs{
+	position: relative;
+	width: 200px;
+	/*color: #303030;*/
+}
+.boxs input[type="checkbox"] { 
+    clip: rect(0,0,0,0);
+	background-color: #F0F1F5;
+}
+.boxs input[type="checkbox"]:checked + label::before {
+    background: #007646;
+	background-image: url(../images/TYPE.png);
+}
+.boxs input#agree[type="checkbox"], 
+.boxs input#agree[type="checkbox"] + label::before {
+    content: '\a0';
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #000;
+    background-color: #f8f8f8;
+    position: absolute;
+    border-radius: 5px;
+    top: -2px;
+    left: -58px;
+}
+
+.button{
+	width: 385px;
+	height:78px;
+	margin: 0 auto;
+	background: url( "../images/btn.png");
+        }
+.button2{
+	width: 563px;
+	height:279px;
+	margin: 0 auto;
+	background: url( "../images/btn2.png");
+	margin-top: 30px;
+        }
+
+
+/*燈箱*/
+
+.black_overlay {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color:#575656;
+    z-index: 1001;
+    -moz-opacity: 0.95;
+    opacity: .95;
+    filter: alpha(opacity=95);
+}
+
+.close {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+	top: 10px;
+    right: 10px;
+    z-index: 10000
+}
+.white_content {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    z-index: 1050;
+    width: 90%;
+    height: 90%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: none;
+    font-family:"Century Gothic", "微軟正黑體";
+	-webkit-overflow-scrolling:touch!important;
+	overflow-scrolling:touch!important;
+}
+.white-body {
+    position: relative;
+    height: 100%;
+    padding: 20px 20px 0 20px;
+    overflow-y: auto;
+    display: block;
+    line-height: 1.5;
+	-webkit-overflow-scrolling:touch!important;
+	overflow-scrolling:touch!important;
+}
+
+.white-body h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+	color: #000;
+	margin-top: 20px;
+    }
+
+.white-body h2 {
+    font-size: 23px;
+    line-height: 33px;
+    margin-bottom: 20px;
+	color: #595757;
+	padding-left: 20px;
+	padding-right: 20px;
+    }
+.white-body p.theme{
+	color: #d1570d;
+	line-height: 45px;
+	font-weight: bold;
+}
+
+.white-body h3 {
+	width: 100%;
+	font-size: 26px;
+	line-height: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 10px 0;
+	/*height: 160px;*/
+}
+
+.white-body ul {
+	height: 100%;
+}
+
+.white-body ul li {
+	font-size: 26px;
+	line-height: 40px;
+	margin-bottom: 10px;
+	text-align: justify;
+	list-style-type: disc;
+}
+
+ol.lv2 {
+	padding-left: 30px;
+}
+
+ol.lv2 li {
+	list-style-type: decimal;
+}
+
+.close {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 10000
+}
+
+/*預約資訊確認*/
+
+.white_content_info {
+	position: fixed;
+    top: 5%;
+    left: 5%;
+    z-index: 1050;
+    width: 90%;
+    height: 90%;
+    /* max-height: 600px; */
+    padding-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: none;
+    font-family: "Century Gothic", "微軟正黑體";
+    -webkit-overflow-scrolling: touch !important;
+    overflow-scrolling: touch !important;
+    overflow-y: scroll;
+    max-height: 845px;
+}
+.checktitle{
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	 font-family:"Century Gothic", "微軟正黑體";
+}
+.info{
+padding-left: 10px;
+}
+.info ul{
+	margin-top: 25px;
+    margin-bottom: 25px;
+}
+.info ul li{
+	/*margin-bottom: 10px;*/
+    display: flow-root;
+}
+.info .formoption{
+	float: left;
+    width: 140px;
+    color: #000000;
+    font-size: 26px;
+    font-family: Century Gothic, "微軟正黑體";
+    font-weight: bolder;
+    /* text-align: right; */
+    letter-spacing: 2px;
+    height: 45px;
+    line-height: 45px;
+}
+.ProductInfo{
+	padding: 0 0 30px 0;
+    color: #000000;
+    font-size: 26px;
+    font-family: Century Gothic, "微軟正黑體";
+    font-weight: bolder;
+	border-bottom: 2px dashed #000;
+	letter-spacing: 2px;
+}
+
+.justify{
+     /*margin-bottom: -38px; */
+    height: 45px;
+        }
+.justify:after {
+            content: '';
+            width: 100%;
+            display: inline-block;
+        }
+.info .formcontent{
+	float: left;
+	width: 350px;
+	color: #000000;
+	font-size: 26px;
+	font-family:Century Gothic, "微軟正黑體";
+	line-height: 38px;
+	text-align: justify;
+	font-weight: bold;
+}
+
+.remind{
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff!important;
+    text-align: center;
+	background-color: #a4a4a4;
+	border-radius: 5px;
+	padding: 20px;
+}
+.cheakbut{
+	max-width:534px;
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+	clear: both;
+	margin-top: 30px;
+}
+.cancel{
+	width: 249px;
+	float:left;
+}
+.confirm{
+	width: 249px;
+	float:right;
+}
+/*數量單選*/
+
+.num {
+	width: 325px;
+    height: 70PX;
+    float: right;
+}
+
+.num ol {
+	width: 325px;
+    height: 70PX;
+	line-height: 70px;
+}
+
+.numArea {
+	width: 50%;
+    position: relative;
+    font-size: 26px;
+    text-decoration: none;
+    text-indent: 60px;
+    font-family: "Arial", "微軟正黑體";
+    float: left;
+	font-weight: bold;
+}
+
+.numArea input {
+	display: block;
+	width: 50%;
+	height: 70px;
+}
+
+.numArea input[type="radio"] {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	width: 50%;
+	height: 70px;
+	opacity: 0;
+	margin: 0;
+}
+
+
+.numArea input[type="radio"]+label {
+	display: inline-block;
+	background-image: url("../images/num-TypeBox.png");
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	z-index: 2;
+	background-repeat: no-repeat;
+}
+
+.numArea input[type="radio"]:checked+label {
+	background-image: url("../images/num-TYPE.png");
+	width: 50%;
+	height: 70px;
+	position: absolute;
+	z-index: 2;
+}
+
+.numArea input[type="radio"],
+.numArea input[type="radio"]+label {
+	left: 0px;
+    top:0px;
+}

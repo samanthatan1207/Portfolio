@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>三得利</title>
+	<meta name="viewport" content="width=640, target-densitydpi=device-dpi, maximum-scale=1.0, user-scalable=NO" />
+	<link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.ico">
+	<meta property="og:image" content="images/share.jpg" />
+	<meta property="og:title" content="三得利" />
+	<meta property="og:description" content="三得利" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://dsp.mbobi.com/Share/JS/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="float" style="position: fixed;bottom: 10px;right: 10px;z-index: 1000;"><img src="images/float.png">
+	</div>
+	<div style="text-align: center;"><img src="images/LOGO.jpg"></div>
+	<div class="KV"><img src="images/KV.jpg"></div>
+	<div class="IMG"><img src="images/IMG1.jpg"></div>
+
+	<!--表單-->
+
+	<div class="form">
+
+		<div class="FormTitle"></div>
+
+		<!--收件人資料-->
+
+		<ul style="border:none;">
+
+			<li>
+				<p class="formoption inputbox">購買數量：</p>
+				<div class="num">
+					<ol>
+						<li class="numArea">
+							1盒
+							<input type="radio" id="numGroup1_0" name="numGroup1" /> <label for="numGroup1_0"></label>
+						</li>
+						<li class="numArea">
+							2盒
+							<input type="radio" id="numGroup1_1" name="numGroup1" /> <label for="numGroup1_1"></label>
+						</li>
+					</ol>
+				</div>
+			</li>
+			<li>
+				<p class="formoption inputbox">收件姓名：</p>
+				<input type="text" class="mobiname" placeholder="例:王小明" maxlength="10">
+
+			</li>
+			<li>
+				<p class="formoption inputbox">手機門號：</p>
+				<input type="tel" class="mobiPhone" placeholder="請輸入您的手機門號" maxlength="10">
+			</li>
+			<li>
+				<p class="formoption inputAdd">收件地址：(配送區域限台灣本島)</p>
+
+				<select name="county" class="select">
+					<option value="">縣市</option>
+					<option value="基隆市">基隆市</option>
+					<option value="臺北市">臺北市</option>
+					<option value="新北市">新北市</option>
+					<option value="宜蘭縣">宜蘭縣</option>
+					<option value="新竹市">新竹市</option>
+					<option value="新竹縣">新竹縣</option>
+					<option value="桃園市">桃園市</option>
+					<option value="苗栗縣">苗栗縣</option>
+					<option value="臺中市">臺中市</option>
+					<option value="彰化縣">彰化縣</option>
+					<option value="南投縣">南投縣</option>
+					<option value="嘉義市">嘉義市</option>
+					<option value="嘉義縣">嘉義縣</option>
+					<option value="雲林縣">雲林縣</option>
+					<option value="臺南市">臺南市</option>
+					<option value="高雄市">高雄市</option>
+					<option value="屏東縣">屏東縣</option>
+					<option value="臺東縣">臺東縣</option>
+					<option value="花蓮縣">花蓮縣</option>
+					<option value="金門縣">金門縣</option>
+					<option value="連江縣">連江縣</option>
+					<option value="澎湖縣">澎湖縣</option>
+				</select>
+
+				<select name="district" class="select">
+					<option value="">鄉鎮市區</option>
+				</select>
+
+				<input type="text" name="zipcode" placeholder="郵遞區號">
+
+				<textarea class="inputcontent" placeholder="請輸入完整地址。如：忠孝東路一段99號9巷9弄9樓"></textarea>
+			</li>
+
+		</ul>
+
+		<div class="Precautions1">
+			<ul>
+				<li>每人限體驗一次</li>
+				<li>貨到付款免運費(宅配到府)</li>
+				<li>配送時間： 5-10個工作天內</li>
+				<li>請填寫正確聯繫及寄送資訊，若地址填寫不完全，三得利有權刪除訂單</li>
+			</ul>
+
+		</div>
+		<div class="choice">
+			<div class="boxs">
+				<input name="agree" id="agree" class="MobiChx" type="checkbox" value="1" /><label for="agree"></label>
+				<font>
+					我同意<a href="https://wellness.suntory.com.tw/help/Aboutour_info_id=9.html "
+						target="_blank"><u>購買條款</u></a>
+				</font>
+			</div>
+		</div>
+
+		<!--確認送出鈕-->
+		<button type="button" class="button" id="sBut" style="cursor: pointer"
+			onclick="document.getElementById('check').style.display='block';document.getElementById('fade').style.display='block';"></button>
+
+	</div>
+	<div class="IMG"><img src="images/IMG2.jpg"></div>
+	<div class="IMG"><img src="images/IMG3.jpg"></div>
+	<div class="IMG"><img src="images/IMG4.jpg"></div>
+	<div class="IMG"><img src="images/IMG5.jpg"></div>
+	<div class="IMG"><img src="images/IMG6.jpg"></div>
+	<div class="IMG"><img src="images/IMG7.jpg"></div>
+
+<div class="Remark">備註：1. “日本三得利「蜜露珂娜」連續12年成為台灣膠原蛋白膳食補充品銷售第一品牌。” *資料來源： Euromonitor International 依2012-2023年台灣零售通路銷售金額計。膠原蛋白膳食補充品包含粉、錠劑以及濃縮飲之產品形態。調查於2024年6月完成。2. 350萬盒為台灣和日本累計銷售實績，1盒30包入(約30天份)，累計至2020年6月底。</div>
+
+	<div class="Precautions2">
+		<p>注意事項 :</p>
+		<ul>
+			<li>為避免退款爭議，退貨款項僅退給訂購人，該退款帳戶持有人姓名必須與該訂購人姓名一致。</li>
+			<li>我們將使用您的聯絡資料寄送產品，並持續向您提供其他三得利產品相關資訊。</li>
+			<li>本活動網頁由三得利委由智泓科技維護管理，詳閱<a href="javascript: void(0)"
+					onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';"><u>隱私權政策</u></a>。
+			</li>
+		</ul>
+	</div>
+	<div class="footer">
+		<p style="font-size: 23px;font-weight: bold;letter-spacing: -1px;margin-bottom: 10px;color: #000;">本活動網頁為【三得利官方銷售通路】，委由智泓科技維護</p>
+		若有疑問詳免付費客服專線：0800-321-555<br>
+		服務時間 : 週一至週五 早上9點~下午5點
+	</div>
+
+
+	<!--訂單確認-->
+
+	<div id="check" class="white_content_info">
+		<div class="white-body">
+			<h1 class="checktitle">請確認下列資訊</h1>
+			<div class="info">
+				<div class="ProductInfo">
+					蜜露珂娜Milcolla 新客優惠體驗組<br>貨到付款免運費(宅配到府) 
+				</div>
+				<ul>
+					<li>
+						<p class="formoption">購買數量：</p>
+						<p class="formcontent" style="color:#c52756;">15日份 X 1盒</p>
+					</li>
+					<li>
+						<p class="formoption">購買金額：</p>
+						<p class="formcontent" style="color:#c52756;">$790元</p>
+					</li>
+					<li>
+						<p class="formoption justify">收&thinsp;件&thinsp;人：</p>
+						<p class="formcontent" style="color:#c52756;">王小明</p>
+					</li>
+					<li>
+						<p class="formoption">手機門號：</p>
+						<p class="formcontent" style="color:#c52756;">0999-123-123</p>
+					</li>
+					<li>
+						<p class="formoption">收件地址：</p>
+						<p class="formcontent" style="color:#c52756;">台北市大安區忠孝東路一段99號9巷9弄9樓</p>
+					</li>
+				</ul>
+			</div>
+			<div class="remind">提醒您：確認送出後，將無法再修改。</div>
+			<div class="cheakbut">
+				<a href="javascript:void(0)"
+					onclick="document.getElementById('check').style.display='none';document.getElementById('fade').style.display='none'">
+					<button type="button" class="cancel"><img src="images/BACK.PNG"></button></a>
+				<button type="button" class="confirm"><img src="images/SENT.png"></button>
+			</div>
+		</div>
+	</div>
+
+
+	<!--預約確認結束-->
+	<!--------------------------------------------------------------------------------隱私權政策---------------------------------------------------------------------->
+
+	<div id="light" class="white_content">
+
+		<!--- link to close </--->
+		<div class="close">
+			<a href="javascript:void(0)"
+				onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+				<img src="images/close.png" width="50px" height="50px" alt="" />
+			</a>
+		</div>
+
+		<div class="white-body">
+			<h1>隱私權政策</h1>
+			<h3>智泓科技為保護您的個人資料，依據個人資料保護法第8條規定，向您告知有關智泓科技對於個人資料之蒐集、處理及利用等相關事項如下，請您詳閱：</h3>
+			<ul style="list-style-type: cjk-ideographic;padding-left: 30px;">
+				<li>
+					蒐集之目的：<br>為提供您服務及業務之必要範圍內，包括但不限於進行贈品兌換活動、會員登錄及驗證、廣告行銷、服務訊息、特別活動通知等用途及其他隱私權保護政策規範之使用方式。</li>
+				<li>
+					個人資料之類別：<br>您為參加活動所提供之資料，包含姓名、連絡方式(如電話、E-MAIL或地址等)或其他得以直接或間接識別您個人之資料。
+				</li>
+				<li>
+					個人資料利用之期間、地區、對象或方式：
+					<ol class="lv2">
+						<li>期間：智泓科技依新加坡商三得利健益亞太股份有限公司台灣分公司(以下簡稱三得利)之指示保存資料期間或依法令之資料保存期間。</li>
+						<li>地區：中華民國領域。</li>
+						<li>對象：智泓科技蒐集及處理，提供予三得利利用。</li>
+						<li>方式：以電話、簡訊、電子郵件、紙本或其他合於當時科學技術之適當方式提供予三得利利用。</li>
+					</ol>
+				</li>
+				<li>
+					您得依個人資料保護法第3條規定，就您的個人資料：
+					<ol class="lv2">
+						<li>向智泓科技請求查詢、閱覽或製給複製本，惟智泓科技依法得酌收必要成本費用。</li>
+						<li>向智泓科技請求補充或更正之。</li>
+						<li>向智泓科技請求刪除、停止處理或利用您的個人資料，但智泓科技因執行職務或業務所必須或經當事人書面同意者，不在此限。</li>
+						<li>行使上述權利之方式：請來信智泓科技電子信箱(<a href="mailto:service@mbobi.com"><u
+									style="color:#1a60e2;">service@mbobi.com</u></a>)辦理。</li>
+					</ol>
+				</li>
+				<li>
+					當您表示拒絕接受行銷時，智泓科技經合理期間即不得以行銷之名義利用您個人資料。若您未能提供相關個人資料時，智泓科技將可能無法提供台端相關服務。
+				</li>
+				<li>Cookie 政策<br>
+					為提供您個人化且即時的服務，本網站透過使用"Cookies"記錄與存取您的瀏覽使用訊息。<br>
+					如政策中所述，繼續使用網站，即表明您同意 Cookie 及其他類似技術的使用。如果您希望造訪我們網站時能夠擁有更多的控制權，以及對設定做出相應調整。您可在下方「如何控制與刪除
+					Cookie」部分中閱讀相關內容。
+				</li>
+				<li>
+					如何控制與刪除 Cookie？<br>
+					您可以選擇禁用、拒絕或封鎖我們的 Cookie，但是，如果您採取以上動作，網站某些部份可能無法正常使用。<br>
+					大多數瀏覽器允許您查看您的 Cookies，您可自行刪除 Cookies 或封鎖來自特定網站或所有網站的 Cookies。請注意，如果您刪除所有的 Cookies，可能導致喜好設定遺失，包括退出
+					Cookies(其需透過 Cookie 進行相關設置)。有關瀏覽器設定、封鎖或過濾 Cookies，請參閱 About Cookies 或 The Unofficial Cookie FQA
+					獲得更多資訊。<br>
+					<br>
+					瞭解如何管理您的瀏覽器中清除、啟用與管理 Cookie：<br>
+					<a href="https://support.microsoft.com/en-us/help/278835/how-to-delete-cookie-files-in-internet-explorer"
+						target="_blank"><u style="color:#1a60e2;">- Microsoft Internet Explorer</u></a><br>
+					<a href="https://support.google.com/chrome/answer/95647?hl=en" target="_blank"><u
+							style="color:#1a60e2;">- Google Chrome</u></a><br>
+					<a href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox?redirectlocale=en-US&amp;redirectslug=delete-cookies-remove-info-websites-stored"
+						target="_blank"><u style="color:#1a60e2;">- Mozilla Firefox</u></a><br>
+					<a href="https://support.apple.com/zh-tw/guide/safari/sfri11471/mac" target="_blank"><u
+							style="color:#1a60e2;">- Apple Safari</u></a><br>
+					<br>
+					若要控制、退出由第三方服務所建立之 Cookie，或檢閱他們的隱私權或 Cookie 政策，您可透過以下連結直接造訪相關內容<br>
+					<a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank"><u
+							style="color:#1a60e2;">- Microsoft</u></a><br>
+					<a href="https://support.google.com/analytics/answer/6004245?hl=zh-Hant&amp;ref_topic=2919631"
+						target="_blank"><u style="color:#1a60e2;">- Google Analytics</u></a><br>
+					<a href="https://policies.google.com/privacy" target="_blank"><u style="color:#1a60e2;">- Google
+							Ads</u></a><br>
+					<br>
+					若您是透過行動裝置，例如智慧型手機或平板電腦，瀏覽本網站，請參考該裝置之製造廠對有關如何管理 Cookies 的使用說明<br><br>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+
+	<div id="fade" class="black_overlay"></div>
+	<script>
+		/*滑入錨點*/
+
+		$(function () {
+			$('.float').click(function () { $('html,body').animate({ scrollTop: $('.FormTitle').offset().top }, 800); });
+		});
+		/*禁止雙擊縮放*/
+		var lastTouchEnd = 0;
+		document.documentElement.addEventListener('touchend', function (event) {
+			var now = Date.now();
+			if (now - lastTouchEnd <= 300) {
+				event.preventDefault();
+			}
+			lastTouchEnd = now;
+		}, false);
+
+
+	</script>
+
+	<!-- 下拉改色 -->
+	<script>
+		var unSelected = "#5c5c5c";
+		var selected = "#000";
+		$(function () {
+			$("select").css("color", unSelected);
+			$("option").css("color", selected);
+			$("select").change(function () {
+				var selItem = $(this).val(); if (selItem == $(this).find('option:first').val()
+				) { $(this).css("color", unSelected); } else {
+					$(this).css("color", selected);
+				}
+			});
+		})
+	</script>
+</body>
+
+</html>

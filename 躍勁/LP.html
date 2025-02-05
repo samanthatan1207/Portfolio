@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>三得利</title>
+	<meta name="viewport" content="width=640, target-densitydpi=device-dpi, maximum-scale=1.0, user-scalable=NO" />
+	<link rel="shortcut icon" type="image/x-icon" media="all" href="images/favicon.ico">
+	<meta property="og:image" content="images/share.jpg" />
+	<meta property="og:title" content="三得利" />
+	<meta property="og:description" content="三得利" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+
+<body>
+	<div class="float" style="position: fixed;bottom: 10px;right: 10px;z-index: 1000;" ><img src="images/float.png"></div>
+	<div class="KV"><img src="images/KV.jpg"></div>
+	<div class="Product"><img src="images/product.jpg"></div>
+	<div class="FormTitle"></div>
+
+	<!--表單-->
+	<div class="form">
+		<!--收件人資料-->
+
+		<ul style="border:none;">
+
+			<li>
+				<div class="LastName">
+					<p class="formoption inputbox justify">收件人姓：</p>
+					<input type="text" class="mobiName" placeholder="例 : 王">
+				</div>
+
+				<div class="FirstName">
+					<p class="formoption2 inputbox justify">名：</p>
+					<input type="text" class="mobiName" placeholder="例 : 小明">
+				</div>
+
+			</li>
+			<li>
+				<p class="formoption inputbox">手機門號：</p>
+				<input type="tel" class="mobiPhone" placeholder="請輸入您的手機門號" maxlength="10">
+			</li>
+			<li>
+				<p class="formoption inputAdd">收件地址：(配送區域限台灣本島)</p>
+
+				<select name="county" class="select">
+					<option value="">縣市</option>
+					<option value="基隆市">基隆市</option>
+					<option value="臺北市">臺北市</option>
+					<option value="新北市">新北市</option>
+					<option value="宜蘭縣">宜蘭縣</option>
+					<option value="新竹市">新竹市</option>
+					<option value="新竹縣">新竹縣</option>
+					<option value="桃園市">桃園市</option>
+					<option value="苗栗縣">苗栗縣</option>
+					<option value="臺中市">臺中市</option>
+					<option value="彰化縣">彰化縣</option>
+					<option value="南投縣">南投縣</option>
+					<option value="嘉義市">嘉義市</option>
+					<option value="嘉義縣">嘉義縣</option>
+					<option value="雲林縣">雲林縣</option>
+					<option value="臺南市">臺南市</option>
+					<option value="高雄市">高雄市</option>
+					<option value="屏東縣">屏東縣</option>
+					<option value="臺東縣">臺東縣</option>
+					<option value="花蓮縣">花蓮縣</option>
+					<option value="金門縣">金門縣</option>
+					<option value="連江縣">連江縣</option>
+					<option value="澎湖縣">澎湖縣</option>
+				</select>
+
+				<select name="district" class="select">
+					<option value="">鄉鎮市區</option>
+				</select>
+
+				<input type="text" name="zipcode" placeholder="郵遞區號">
+
+				<textarea class="inputcontent" placeholder="請輸入完整地址。如：忠孝東路一段99號9巷9弄9樓"></textarea>
+			</li>
+
+		</ul>
+		<div class="Precautions1">
+			<ul>
+				<li>$299元貨到付款免運費(宅配到府)</li>
+				<li>配送時間： 5-10個工作天內</li>
+				<li>請填寫正確聯繫及寄送資訊，若地址填寫不完全，三得利有權刪除訂單</li>
+			</ul>
+		</div>
+		<div class="choice">
+			<div class="boxs">
+				<input name="agree" id="agree" class="MobiChx" type="checkbox" value="1" /><label for="agree"></label>
+				<font>
+					我同意<a href="https://wellness.suntory.com.tw/help/Aboutour_info_id=9.html " target="_blank"><u>購買條款</u></a>
+				</font>
+			</div>
+		</div>
+
+		<!--確認送出鈕-->
+		<button type="button" class="button" id="sBut" style="cursor: pointer"
+			onclick="document.getElementById('check').style.display='block';document.getElementById('fade').style.display='block';"></button>
+
+	</div>
+	<div class="IMG"><img src="images/IMG1.jpg"></div>
+	<div class="IMG"><img src="images/IMG2.jpg"></div>
+	<div class="IMG"><img src="images/IMG3.jpg"></div>
+	<div class="IMG"><img src="images/IMG4.jpg"></div>
+	<div class="IMG"><img src="images/IMG5.jpg"></div>
+	<div class="IMG"><img src="images/IMG6.jpg"></div>
+	<button type="button" class="button2"></button>
+
+	<div class="Precautions2">
+		<p>注意事項 :</p>
+		<ul>
+			<li>為避免退款爭議，退貨款項僅退給訂購人，該退款帳戶持有人姓名必須與該訂購人姓名一致。</li>
+			<li>我們將使用您的聯絡資料寄送產品，並持續向您提供其他產品相關資訊。</li>
+		</ul>
+	</div>
+	<div class="footer">
+		若有疑問詳免付費客服專線：<a href="tel:0800-321-555">0800-321-555</a><br>
+		服務時間 : 週一至週五 早上9點~下午5點
+	</div>
+
+
+	<!--訂單確認-->
+
+	<div id="check" class="white_content_info">
+		<div class="white-body">
+			<h1 class="checktitle">請確認下列資訊</h1>
+			<div class="info">
+				<div class="ProductInfo">
+					躍勁BODY SAPO 新客6包體驗組<br>
+					$299元貨到付款免運費(宅配到府)
+				</div>
+				<ul>
+					<li>
+						<p class="formoption justify">收&nbsp;件&nbsp;人：</p>
+						<p class="formcontent" style="color:#eb7944;">王小明</p>
+					</li>
+					<li>
+						<p class="formoption">手機門號：</p>
+						<p class="formcontent" style="color:#eb7944;">0999-123-123</p>
+					</li>
+					<li>
+						<p class="formoption">收件地址：</p>
+						<p class="formcontent" style="color:#eb7944;">台北市大安區忠孝東路一段99號9巷9弄9樓</p>
+					</li>
+				</ul>
+			</div>
+			<div class="remind">提醒您：確認送出後，將無法再修改。</div>
+			<div class="cheakbut">
+				<a href="javascript:void(0)"
+					onclick="document.getElementById('check').style.display='none';document.getElementById('fade').style.display='none'">
+					<button type="button" class="cancel"><img src="images/BACK.PNG"></button></a>
+				<button type="button" class="confirm"><img src="images/SENT.png"></button>
+			</div>
+		</div>
+	</div>
+	<div id="fade" class="black_overlay"></div>
+
+	<!--預約確認結束-->
+
+	<script>
+		/*滑入錨點*/
+
+		$(function () {
+			$('.float,.button2').click(function () { $('html,body').animate({ scrollTop: $('.FormTitle').offset().top }, 800); });
+		});
+		/*禁止雙擊縮放*/
+		var lastTouchEnd = 0;
+		document.documentElement.addEventListener('touchend', function (event) {
+			var now = Date.now();
+			if (now - lastTouchEnd <= 300) {
+				event.preventDefault();
+			}
+			lastTouchEnd = now;
+		}, false);
+
+
+	</script>
+
+</body>
+
+</html>
